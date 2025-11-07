@@ -40,6 +40,7 @@ TARGETS += splice
 TARGETS += static_keys
 TARGETS += sync
 TARGETS += sysctl
+TARGETS += drivers/ntsync
 ifneq (1, $(quicktest))
 TARGETS += timers
 endif
